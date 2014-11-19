@@ -12,7 +12,7 @@ script.
    01 SHELL := /bin/bash
    02
    03 fizzbuzz:
-   04     @for i in {1..20}; do
+   04     for i in {1..20}; do
    05         res=""
    06         if [[ $$((i % 3)) -eq 0 ]]; then
    07             res="Fizz"
@@ -65,6 +65,8 @@ script.
    14     done
 
 * ``M-x RET makefile-delete-semicolon-backslash-region``
+
+.. code-block:: make
 
    01 SHELL := /bin/bash
    02
