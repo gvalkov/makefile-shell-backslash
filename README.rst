@@ -32,16 +32,16 @@ script.
    SHELL := /bin/bash
 
    fizzbuzz:
-       for i in {1..20}; do				     \
-           res=""							;\
-           if [[ $$((i % 3)) -eq 0 ]]; then	 \
-               res="Fizz"					;\
-           fi								;\
-           if [[ $$((i % 5)) -eq 0 ]]; then	 \
-               res+="Buzz"					;\
-           fi								;\
-           [[ -z "$${res}" ]] && res="$$i"	;\
-           echo -n "$${res} "				;\
+       for i in {1..20}; do                  \
+           res=""                           ;\
+           if [[ $$((i % 3)) -eq 0 ]]; then  \
+               res="Fizz"                   ;\
+           fi                               ;\
+           if [[ $$((i % 5)) -eq 0 ]]; then  \
+               res+="Buzz"                  ;\
+           fi                               ;\
+           [[ -z "$${res}" ]] && res="$$i"  ;\
+           echo -n "$${res} "               ;\
        done
 
 
@@ -54,13 +54,13 @@ script.
    fizzbuzz:
        for i in {1..20}; do   \
            res=""  ;\
-           if [[ $$((i % 3)) -eq 0 ]]; then	  \
+           if [[ $$((i % 3)) -eq 0 ]]; then   \
                res="Fizz"  ;\
            fi  ;\
-           if [[ $$((i % 5)) -eq 0 ]]; then	  \
-               res+="Buzz"	;\
+           if [[ $$((i % 5)) -eq 0 ]]; then   \
+               res+="Buzz"  ;\
            fi  ;\
-           [[ -z "$${res}" ]] && res="$$i"	;\
+           [[ -z "$${res}" ]] && res="$$i"  ;\
            echo -n "$${res} "  ;\
        done
 
