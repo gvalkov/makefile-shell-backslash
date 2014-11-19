@@ -20,14 +20,6 @@
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
 
-;;; Install
-
-;; If you're not installing through package.el, you have to put this
-;; file on your Emacs-Lisp load path and load it with:
-;;
-;;     (require 'makefile-shell-backslash)
-;;
-
 ;;; Commentary:
 
 ;;; Code:
