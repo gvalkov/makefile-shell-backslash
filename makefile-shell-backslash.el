@@ -1,6 +1,6 @@
 ;;; makefile-shell-backslash.el --- Smart ";/" or "/" for shell-heavy makefiles
 
-;; Copyright (C) 2014 Georgi Valkov
+;; Copyright (C) 2014-2016 Georgi Valkov
 
 ;; Author: Georgi Valkov <georgi.t.valkov@gmail.com>
 ;; Version: 1.0
